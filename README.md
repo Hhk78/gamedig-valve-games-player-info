@@ -1,2 +1,17 @@
-# gamedig-valve-games-player-info
-gamedig ile cs source/half life/cs 1.6  için anlık oyuncu bilgisi çekme aracı
+# Gereksinimler
+Gamedig:
+```
+np install -g gamedig
+```
+Diğer gereksinimler:
+```
+apt install awk jq
+```
+
+Kullanım: 
+```
+./info.sh --server ip:port
+```
+```
+./info.sh --server domain:port
+```
