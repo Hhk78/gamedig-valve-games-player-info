@@ -1,7 +1,7 @@
 # Gereksinimler
 Gamedig:
 ```
-np install -g gamedig
+npm install -g gamedig
 ```
 Diğer gereksinimler:
 ```
